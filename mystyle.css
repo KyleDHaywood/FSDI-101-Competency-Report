@@ -1,0 +1,134 @@
+/*global*/
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@200;400;700&display=swap");
+* {
+  margin: 0;
+}
+body {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  background-color: rgb(90, 90, 90);
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+/*utility*/
+.btn {
+  border-width: 1px;
+  text-align: center;
+  color: rgb(218, 218, 218);
+  margin-left: 2%;
+  padding: 5px;
+  text-decoration: none;
+  background-color: rgb(200, 30, 0);
+  border-radius: 10px;
+}
+.btn a:hover {
+  color: rgb(200, 30, 0);
+  background-color: rgb(255, 30, 0);
+}
+/*Header*/
+header {
+  background-color: rgb(47, 47, 47);
+  color: rgb(218, 218, 218);
+  /*border-radius: 30px;*/
+}
+.header-text {
+  text-align: center;
+}
+.header-text p {
+  font-weight: 300;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 25px;
+  margin: 30px;
+}
+.menu {
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 5px;
+}
+.menu a {
+  color: rgb(255, 30, 0);
+  text-align: left;
+  margin-left: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 5px;
+}
+.menu a:hover {
+  color: rgb(200, 30, 0);
+}
+/*Main*/
+h2 {
+  font-weight: 500;
+  width: 300;
+  border: 1px solid rgb(35, 35, 35);
+  background-color: rgb(24, 93, 91);
+  margin: 0px auto;
+  color: rgb(218, 218, 218);
+}
+.bio-section {
+  width: 95%;
+  margin: 10px auto;
+  background-color: rgb(47, 47, 47);
+  padding: 25px;
+  border-radius: 30px;
+}
+.bio-section p {
+  color: rgb(218, 218, 218);
+}
+a {
+  color: rgb(200, 30, 0);
+}
+ul {
+  list-style-type: circle;
+}
+/*Footer*/
+footer {
+  background-color: rgb(35, 35, 35);
+  color: rgb(218, 218, 218);
+  text-align: center;
+  margin-top: 25px;
+}
+/*Services Page*/
+.services-container {
+  display: flex;
+}
+.service-item {
+  width: 30%;
+  height: 350px;
+  background-color: rgb(47, 47, 47);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  color: rgb(218, 218, 218);
+}
+/*painting page*/
+.painting-contain {
+  display: flex;
+}
+/*Contact Page*/
+.contact-methods {
+  background-color: rgb(47, 47, 47);
+  width: 90%;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  color: rgb(218, 218, 218);
+}
+/*List Pages*/
+.passion-list {
+  width: 20%;
+  height: 350px;
+  background-color: rgb(47, 47, 47);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  color: rgb(218, 218, 218);
+}
